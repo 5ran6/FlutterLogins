@@ -1,9 +1,10 @@
 import 'package:flutter/material.dart';
-import 'package:logins/ugly_login.dart';
+import 'package:logins/fine_login1.dart';
 
 void main() => runApp(MaterialApp(
-     // home: MyApp(),
-      home: login2(),
+      //     home: MyApp(),
+      home: fine_login1(),
+      // home: login2(),
     ));
 
 class MyApp extends StatelessWidget {
@@ -41,7 +42,9 @@ class MyApp extends StatelessWidget {
                 padding: const EdgeInsets.all(18.0),
                 child: TextFormField(
                   style: TextStyle(color: Colors.blueGrey),
-                  decoration: InputDecoration(labelText: 'Username'),
+                  decoration: InputDecoration(
+                      labelText: 'Username',
+                      labelStyle: TextStyle(color: Colors.grey)),
                 ),
               ),
               Padding(
@@ -50,7 +53,9 @@ class MyApp extends StatelessWidget {
                   style: TextStyle(
                     color: Colors.blueGrey,
                   ),
-                  decoration: InputDecoration(labelText: 'Password'),
+                  decoration: InputDecoration(
+                      labelText: 'Password',
+                      labelStyle: TextStyle(color: Colors.grey)),
                 ),
               ),
               Align(
@@ -79,8 +84,11 @@ class MyApp extends StatelessWidget {
           ),
         ),
       ),
-      floatingActionButton:
-          FloatingActionButton(onPressed: () {}, child: Icon(Icons.home)),
+      floatingActionButton: FloatingActionButton(
+          onPressed: () {
+//            login2();
+          },
+          child: Icon(Icons.home)),
     );
   }
 }
