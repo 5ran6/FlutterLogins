@@ -1,9 +1,9 @@
 import 'package:flutter/material.dart';
-import 'package:logins/fine_login1.dart';
+import 'package:logins/fine_login2.dart';
 
 void main() => runApp(MaterialApp(
       //     home: MyApp(),
-      home: fine_login1(),
+      home: fine_login2(),
       // home: login2(),
     ));
 
