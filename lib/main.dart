@@ -1,9 +1,12 @@
 import 'package:flutter/material.dart';
 import 'package:logins/fine_login2.dart';
+import 'package:logins/mSkola.dart';
 
-void main() => runApp(MaterialApp(
+void main() =>
+    runApp(MaterialApp(
       //     home: MyApp(),
-      home: fine_login2(),
+      home: mSkola(),
+      //   home: fine_login2(),
       // home: login2(),
     ));
 
