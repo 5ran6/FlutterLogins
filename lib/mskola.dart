@@ -1,7 +1,7 @@
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 
-class mSkola extends StatelessWidget {
+class mskola extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     // TODO: implement build
@@ -84,7 +84,10 @@ class mSkola extends StatelessWidget {
                               color: Colors.deepPurple,
                               child: Text(
                                 "PROCEED",
-                                style: TextStyle(color: Colors.white, fontSize: 12, fontWeight: FontWeight.bold),
+                                style: TextStyle(
+                                    color: Colors.white,
+                                    fontSize: 12,
+                                    fontWeight: FontWeight.bold),
                               ),
                             ),
                           )
@@ -92,12 +95,17 @@ class mSkola extends StatelessWidget {
                       ),
                     ),
                   ),
-                 Padding(
-                   padding: const EdgeInsets.all(8.0),
-                   child: Text(
-                     "© 2019 mSkola. All rights reserved | Powered by Mountedwings Cyber-Systems Ltd", style: TextStyle(color: Colors.white, fontSize: 10,) , textAlign: TextAlign.center,
-                ),
-                 )
+                  Padding(
+                    padding: const EdgeInsets.all(8.0),
+                    child: Text(
+                      "© 2019 mSkola. All rights reserved | Powered by Mountedwings Cyber-Systems Ltd",
+                      style: TextStyle(
+                        color: Colors.white,
+                        fontSize: 10,
+                      ),
+                      textAlign: TextAlign.center,
+                    ),
+                  )
                 ],
               ),
             ),
